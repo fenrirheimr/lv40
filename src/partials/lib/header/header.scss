@@ -1,0 +1,16 @@
+.header {
+    @include flex(column, center, center);
+    background: #164194 linear-gradient(to right, rgba(22,64,148,1) 0%, rgba(11,25,57,1) 100%);
+    min-height: 145px;
+    .container {
+        @include flex(row, space-between, flex-start);
+        .logo {
+            > img {
+                max-width: 100%;
+            }
+        }
+    }
+    @media (max-width: 425px) {
+        min-height: 110px;
+    }
+}

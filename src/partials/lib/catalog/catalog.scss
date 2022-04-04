@@ -27,7 +27,7 @@
                     margin-bottom: 0;
                     float: left;
                 }
-                .header {
+                .head {
                     @include flex(row, flex-start, center);
                     flex-wrap: wrap;
                     width: calc(100% - 250px);
@@ -39,39 +39,6 @@
                     .dropdown {
                         padding: 25px;
                         margin-left: 205px;
-                    }
-                }
-                .rotate-text {
-                    display: none;
-                }
-            }
-        }
-    }
-    @media (max-width: 425px) {
-        .container {
-            .catalog-item {
-                .img {
-                    width: 100px;
-                    height: 200px;
-                    > img {
-                        max-height: 100%;
-                    }
-                }
-                .header {
-                    @include flex(row, flex-start, center);
-                    flex-wrap: wrap;
-                    width: calc(100% - 100px);
-                    > div {
-                        width: 100%;
-                    }
-                }
-                .description {
-                    clear: both;
-                }
-                .button-wrapper {
-                    .dropdown {
-                        padding: 25px;
-                        margin-left: 0;
                     }
                 }
                 .rotate-text {
@@ -159,6 +126,41 @@
                     &:hover + .dropdown {
                         display: block;
                     }
+                }
+            }
+        }
+    }
+    @media (max-width: 425px) {
+        .container {
+            .catalog-item {
+                .img {
+                    width: 100px;
+                    height: 200px;
+                    margin-bottom: 20px;
+                    > img {
+                        max-height: 100%;
+                    }
+                }
+                .head {
+                    @include flex(row, flex-start, center);
+                    flex-wrap: wrap;
+                    width: calc(100% - 100px);
+                    > div {
+                        width: 100%;
+                    }
+                }
+                .description {
+                    font-size: 20px;
+                    clear: both;
+                }
+                .button-wrapper {
+                    .dropdown {
+                        padding: 25px;
+                        margin-left: 0;
+                    }
+                }
+                .rotate-text {
+                    display: none;
                 }
             }
         }

@@ -1,3 +1,4 @@
+import "%lib%/header/header"
 import "%lib%/promo/promo"
 import "%lib%/catalog/catalog"
 import "%lib%/features/features"
