@@ -1,0 +1,69 @@
+.promo {
+    @include flex(column, flex-start, center);
+    background: #11316e url("../img/promo.jpg") top center;
+    min-height: 1440px;
+    @media (max-width: 425px) {
+        background-size: cover;
+        background-position-x: 60%;
+        min-height: 100%;
+    }
+    .container {
+        @include flex(column, flex-start, flex-start);
+        .logo {
+            margin-top: 370px;
+            margin-bottom: 144px;
+            @media (max-width: 425px) {
+                margin-top: 170px;
+                margin-bottom: 44px;
+            }
+        }
+        .title {
+            max-width: 510px;
+            margin-bottom: 60px;
+            h1 {
+                @include font-style($font-size: 65px, $font-weight: 900, $color: #ffed00);
+                > span {
+                    color: #fff;
+                }
+                @media (max-width: 425px) {
+                    font-size: 35px;
+                }
+            }
+        }
+        .subtitle {
+            @include font-style($font-size: 25px, $font-weight: 500, $color: #ffed00);
+            text-transform: uppercase;
+            margin-bottom: 36px;
+        }
+        .use {
+            @include font-style($font-size: 25px, $font-weight: 500, $color: #fff);
+            text-transform: uppercase;
+            margin-bottom: 51px;
+        }
+        .icon-wrapper {
+            @include flex(row, flex-start, flex-start);
+            > img {
+                margin-left: 35px;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+            @media (max-width: 425px) {
+                > img {
+                    margin-left: 15px;
+                }
+            }
+        }
+        .rating {
+            @include flex(row, flex-start, center);
+            @include font-style($font-size: 15px, $font-weight: 500, $color: #b0b0af);
+            margin-top: 234px;
+            > img {
+                margin-left: 60px;
+            }
+            @media (max-width: 425px) {
+                margin: 50px 0;
+            }
+        }
+    }
+}

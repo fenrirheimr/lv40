@@ -1,0 +1,1184 @@
+@charset "UTF-8";
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-Medium.eot");
+  src: local("DIN Pro Medium"), local("DINPro-Medium"), url("../fonts/DINPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Medium.woff") format("woff"), url("../fonts/DINPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-BlackItalic.eot");
+  src: local("DIN Pro Black Italic"), local("DINPro-BlackItalic"), url("../fonts/DINPro-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-BlackItalic.woff") format("woff"), url("../fonts/DINPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedBlackItalic.eot");
+  src: local("DIN Pro Condensed Black Italic"), local("DINPro-CondensedBlackItalic"), url("../fonts/DINPro-CondensedBlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedBlackItalic.woff") format("woff"), url("../fonts/DINPro-CondensedBlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedMedium.eot");
+  src: local("DIN Pro Condensed Medium"), local("DINPro-CondensedMedium"), url("../fonts/DINPro-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedMedium.woff") format("woff"), url("../fonts/DINPro-CondensedMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-MediumItalic.eot");
+  src: local("DIN Pro Medium Italic"), local("DINPro-MediumItalic"), url("../fonts/DINPro-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-MediumItalic.woff") format("woff"), url("../fonts/DINPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-Bold.eot");
+  src: local("DIN Pro Bold"), local("DINPro-Bold"), url("../fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Bold.woff") format("woff"), url("../fonts/DINPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-Light.eot");
+  src: local("DIN Pro Light"), local("DINPro-Light"), url("../fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedMediumItalic.eot");
+  src: local("DIN Pro Condensed Medium Italic"), local("DINPro-CondensedMediumItalic"), url("../fonts/DINPro-CondensedMediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedMediumItalic.woff") format("woff"), url("../fonts/DINPro-CondensedMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-Italic.eot");
+  src: local("DIN Pro Italic"), local("DINPro-Italic"), url("../fonts/DINPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Italic.woff") format("woff"), url("../fonts/DINPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro.eot");
+  src: local("DIN Pro"), local("DINPro"), url("../fonts/DINPro.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro.woff") format("woff"), url("../fonts/DINPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedBlack.eot");
+  src: local("DIN Pro Condensed Black"), local("DINPro-CondensedBlack"), url("../fonts/DINPro-CondensedBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedBlack.woff") format("woff"), url("../fonts/DINPro-CondensedBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedBold.eot");
+  src: local("DIN Pro Condensed Bold"), local("DINPro-CondensedBold"), url("../fonts/DINPro-CondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedBold.woff") format("woff"), url("../fonts/DINPro-CondensedBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-Black.eot");
+  src: local("DIN Pro Black"), local("DINPro-Black"), url("../fonts/DINPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Black.woff") format("woff"), url("../fonts/DINPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-LightItalic.eot");
+  src: local("DIN Pro Light Italic"), local("DINPro-LightItalic"), url("../fonts/DINPro-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-LightItalic.woff") format("woff"), url("../fonts/DINPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedBoldItalic.eot");
+  src: local("DIN Pro Condensed Bold Italic"), local("DINPro-CondensedBoldItalic"), url("../fonts/DINPro-CondensedBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedBoldItalic.woff") format("woff"), url("../fonts/DINPro-CondensedBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedRegular.eot");
+  src: local("DIN Pro Condensed Regular"), local("DINPro-CondensedRegular"), url("../fonts/DINPro-CondensedRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedRegular.woff") format("woff"), url("../fonts/DINPro-CondensedRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedItalic.eot");
+  src: local("DIN Pro Condensed Italic"), local("DINPro-CondensedItalic"), url("../fonts/DINPro-CondensedItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedItalic.woff") format("woff"), url("../fonts/DINPro-CondensedItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedLightItalic.eot");
+  src: local("DIN Pro Condensed Light Italic"), local("DINPro-CondensedLightItalic"), url("../fonts/DINPro-CondensedLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedLightItalic.woff") format("woff"), url("../fonts/DINPro-CondensedLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DIN Pro Cond';
+  src: url("../fonts/DINPro-CondensedLight.eot");
+  src: local("DIN Pro Condensed Light"), local("DINPro-CondensedLight"), url("../fonts/DINPro-CondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-CondensedLight.woff") format("woff"), url("../fonts/DINPro-CondensedLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url("../fonts/DINPro-BoldItalic.eot");
+  src: local("DIN Pro Bold Italic"), local("DINPro-BoldItalic"), url("../fonts/DINPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-BoldItalic.woff") format("woff"), url("../fonts/DINPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  /* Для Firefox */
+  box-sizing: border-box;
+  /* Ширина блока с полями */
+}
+
+body {
+  font-family: "DIN Pro";
+  font-weight: normal;
+  font-size: 16px;
+  font-style: normal;
+  color: #1F1C39;
+  line-height: 24px;
+  background: #e6e6e6;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1392px;
+  padding: 0;
+}
+
+.button {
+  font-family: "DIN Pro";
+  font-weight: 900;
+  font-size: 18px;
+  font-style: normal;
+  color: #fff;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  background: #153d8b;
+  padding: 13px 106px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:after {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 100%;
+  width: 17px;
+  height: 50px;
+  display: block;
+  content: ' ';
+  background: linear-gradient(to bottom right, #153d8b 50%, #fff 52%);
+}
+
+.button:hover {
+  background: #db052c;
+}
+
+.button:hover:after {
+  background: linear-gradient(to bottom right, #db052c 50%, #fff 52%);
+}
+
+.clip {
+  overflow: hidden !important;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #11316e url("../img/promo.jpg") top center;
+  min-height: 1440px;
+}
+
+.promo .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.promo .container .logo {
+  margin-top: 370px;
+  margin-bottom: 144px;
+}
+
+.promo .container .title {
+  max-width: 510px;
+  margin-bottom: 60px;
+}
+
+.promo .container .title h1 {
+  font-family: "DIN Pro";
+  font-weight: 900;
+  font-size: 65px;
+  font-style: normal;
+  color: #ffed00;
+  line-height: normal;
+}
+
+.promo .container .title h1 > span {
+  color: #fff;
+}
+
+.promo .container .subtitle {
+  font-family: "DIN Pro";
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  color: #ffed00;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.promo .container .use {
+  font-family: "DIN Pro";
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  color: #fff;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 51px;
+}
+
+.promo .container .icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.promo .container .icon-wrapper > img {
+  margin-left: 35px;
+}
+
+.promo .container .icon-wrapper > img:first-child {
+  margin-left: 0;
+}
+
+.promo .container .rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "DIN Pro";
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  color: #b0b0af;
+  line-height: normal;
+  margin-top: 234px;
+}
+
+.promo .container .rating > img {
+  margin-left: 60px;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  min-height: 1260px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.catalog:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  width: auto;
+  height: 680px;
+  content: " ";
+  display: block;
+  z-index: 0;
+  background: rgba(212, 212, 212, 0.45);
+}
+
+.catalog .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: initial;
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;
+}
+
+.catalog .container .catalog-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+  position: relative;
+  width: 33%;
+  max-width: 450px;
+}
+
+.catalog .container .catalog-item .rotate-text {
+  font-family: "DIN Pro";
+  font-weight: 900;
+  font-size: 350px;
+  font-style: normal;
+  color: #fff;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  right: -150px;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  height: 460px;
+  z-index: 0;
+  transform: rotate(-90deg);
+}
+
+.catalog .container .catalog-item .img {
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+  height: 582px;
+  margin-left: auto;
+  margin-right: 220px;
+  margin-bottom: 40px;
+}
+
+.catalog .container .catalog-item .title {
+  font-family: "DIN Pro";
+  font-weight: 900;
+  font-size: 42px;
+  font-style: normal;
+  color: #000;
+  line-height: 42px;
+  order: 2;
+  margin-bottom: 45px;
+}
+
+.catalog .container .catalog-item .subtitle {
+  font-family: "DIN Pro";
+  font-weight: normal;
+  font-size: 20px;
+  font-style: normal;
+  color: #666;
+  line-height: 20px;
+  order: 1;
+  margin-bottom: 20px;
+}
+
+.catalog .container .catalog-item .description {
+  font-family: "DIN Pro";
+  font-weight: normal;
+  font-size: 25px;
+  font-style: normal;
+  color: #000;
+  line-height: normal;
+  order: 3;
+  margin-bottom: 40px;
+}
+
+.catalog .container .catalog-item .button-wrapper {
+  order: 4;
+  position: relative;
+  margin-top: auto;
+}
+
+.catalog .container .catalog-item .button-wrapper .dropdown {
+  display: none;
+  position: absolute;
+  padding: 33px;
+  list-style: none;
+}
+
+.catalog .container .catalog-item .button-wrapper .dropdown:hover {
+  display: block;
+}
+
+.catalog .container .catalog-item .button-wrapper .dropdown li {
+  margin-bottom: 15px;
+}
+
+.catalog .container .catalog-item .button-wrapper .dropdown li > a {
+  font-family: "DIN Pro";
+  font-weight: normal;
+  font-size: 20px;
+  font-style: normal;
+  color: #000;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.catalog .container .catalog-item .button-wrapper .dropdown li > a:hover {
+  color: #db052c;
+  font-weight: 500;
+}
+
+.catalog .container .catalog-item .button-wrapper .button:hover + .dropdown {
+  display: block;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #143981 linear-gradient(to bottom, #164094 0%, #0b1939 100%);
+  min-height: 1080px;
+}
+
+.features .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.features .container .features-item {
+  position: relative;
+  width: 33%;
+  max-width: 450px;
+  height: 255px;
+  margin-top: 200px;
+}
+
+.features .container .features-item .text {
+  font-family: "DIN Pro";
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  color: #fff;
+  line-height: 29px;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+
+.features .container .features-item .number {
+  font-family: "DIN Pro";
+  font-weight: 900;
+  font-size: 329px;
+  font-style: italic;
+  color: #134391;
+  line-height: 239px;
+  position: absolute;
+  top: auto;
+  right: 63px;
+  bottom: 34px;
+  left: auto;
+  width: auto;
+  height: 234px;
+  z-index: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  min-height: 220px;
+  padding: 47px 0;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .container .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 500px;
+  height: 100%;
+}
+
+.footer .container .column .logo {
+  margin-bottom: 30px;
+}
+
+.footer .container .column .props,
+.footer .container .column .contacts {
+  font-family: "DIN Pro";
+  font-weight: normal;
+  font-size: 12px;
+  font-style: normal;
+  color: #000;
+  line-height: normal;
+}
+
+.footer .container .column .props > a,
+.footer .container .column .contacts > a {
+  font-family: "DIN Pro";
+  font-weight: normal;
+  font-size: 12px;
+  font-style: normal;
+  color: #000;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.footer .container .column .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer .container .column .socials > a {
+  text-decoration: none;
+  margin-left: 23px;
+}
+
+.footer .container .column .socials > a:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    padding: 0;
+  }
+
+  .catalog .container .catalog-item .description {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1100px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+    padding: 0;
+  }
+
+  .catalog:before {
+    display: none;
+  }
+
+  .catalog .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .catalog .container .catalog-item {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .catalog .container .catalog-item .img {
+    display: block;
+    z-index: 1;
+    width: 205px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    float: left;
+  }
+
+  .catalog .container .catalog-item .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: calc(100% - 250px);
+  }
+
+  .catalog .container .catalog-item .header > div {
+    width: 100%;
+  }
+
+  .catalog .container .catalog-item .button-wrapper .dropdown {
+    padding: 25px;
+    margin-left: 205px;
+  }
+
+  .catalog .container .catalog-item .rotate-text {
+    display: none;
+  }
+
+  .features .container {
+    flex-direction: column;
+  }
+
+  .features .container .features-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .features .container .features-item .text {
+    margin-top: 0;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 650px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 360px;
+    padding: 0;
+  }
+
+  .promo {
+    background-size: cover;
+    background-position-x: 60%;
+    min-height: 100%;
+  }
+
+  .promo .container .logo {
+    margin-top: 170px;
+    margin-bottom: 44px;
+  }
+
+  .promo .container .title h1 {
+    font-size: 35px;
+  }
+
+  .promo .container .icon-wrapper > img {
+    margin-left: 15px;
+  }
+
+  .promo .container .rating {
+    margin: 50px 0;
+  }
+
+  .catalog .container .catalog-item .img {
+    width: 100px;
+    height: 200px;
+  }
+
+  .catalog .container .catalog-item .img > img {
+    max-height: 100%;
+  }
+
+  .catalog .container .catalog-item .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: calc(100% - 100px);
+  }
+
+  .catalog .container .catalog-item .header > div {
+    width: 100%;
+  }
+
+  .catalog .container .catalog-item .description {
+    clear: both;
+  }
+
+  .catalog .container .catalog-item .button-wrapper .dropdown {
+    padding: 25px;
+    margin-left: 0;
+  }
+
+  .catalog .container .catalog-item .rotate-text {
+    display: none;
+  }
+
+  .features .container {
+    flex-direction: column;
+  }
+
+  .features .container .features-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .features .container .features-item .text {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .features .container .features-item .number {
+    right: 0;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer .container .props,
+  .footer .container .contacts {
+    margin-bottom: 30px;
+  }
+}

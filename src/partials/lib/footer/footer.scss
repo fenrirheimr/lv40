@@ -1,0 +1,40 @@
+.footer {
+    @include flex(column, center, center);
+    background-color: #e6e6e6;
+    min-height: 220px;
+    padding: 47px 0;
+    .container {
+        @include flex(row, space-between, flex-start);
+        @media (max-width: 425px) {
+            flex-direction: column;
+            .props, .contacts {
+                margin-bottom: 30px;
+            }
+        }
+        .column {
+            @include flex(column, flex-start, flex-start);
+            max-width: 500px;
+            height: 100%;
+            .logo {
+                margin-bottom: 30px;
+            }
+            .props, .contacts {
+                @include font-style($font-size: 12px, $font-weight: normal, $color: #000);
+                > a {
+                    @include font-style($font-size: 12px, $font-weight: normal, $color: #000);
+                    text-decoration: none;
+                }
+            }
+            .socials {
+                @include flex(row, flex-start, flex-start);
+                > a {
+                    text-decoration: none;
+                    margin-left: 23px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@mixin flex ($flex-direction, $justify-content, $align-items) {
+      display: flex;
+      flex-direction: $flex-direction;
+      justify-content: $justify-content;
+      align-items: $align-items;
+}
+@mixin font-style ($font-family: 'DIN Pro', $font-weight: normal, $font-size: 16px, $font-style: normal, $color: auto, $line-height: normal) {
+      font-family: $font-family;
+      font-weight: $font-weight;
+      font-size: $font-size;
+      font-style: $font-style;
+      color: $color;
+      line-height: $line-height;
+}
+
+@mixin position ($position, $top: auto, $right: auto, $bottom: auto, $left: auto, $width: auto, $height: auto) {
+      position: $position;
+      top: $top;
+      right: $right;
+      bottom: $bottom;
+      left: $left;
+      width: $width;
+      height: $height;
+}

@@ -1,0 +1,69 @@
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -moz-box-sizing: border-box; /* Для Firefox */
+    box-sizing: border-box; /* Ширина блока с полями */
+}
+html {}
+body {
+    @include font-style ($font-size: 16px, $color: #1F1C39, $line-height: 24px);
+    background: #e6e6e6;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1392px;
+    padding: 0;
+    @media (max-width: 1440px) {
+        max-width: 1200px;
+        padding: 0;
+    }
+    @media (max-width: 1200px) {
+        max-width: 1100px;
+        padding: 0;
+    }
+    @media (max-width: 1024px) {
+        max-width: 900px;
+        padding: 0;
+    }
+    @media (max-width: 768px) {
+        max-width: 650px;
+        padding: 0;
+    }
+    @media (max-width: 425px) {
+        max-width: 360px;
+        padding: 0;
+    }
+}
+
+.button {
+    @include font-style ($font-size: 18px, $font-weight: 900, $color: #fff);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    background: #153d8b;
+    padding: 13px 106px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    &:after {
+        @include position(absolute, $left: 100%, $top: 0, $bottom: 0, $width: 17px, $height: 50px);
+        display: block;
+        content: ' ';
+        background: linear-gradient(to bottom right, #153d8b 50%, #fff 52%);
+    }
+    &:hover {
+        background: #db052c;
+        &:after {
+            background: linear-gradient(to bottom right, #db052c 50%, #fff 52%);
+        }
+    }
+}
+
+.clip {
+    overflow: hidden !important;
+}

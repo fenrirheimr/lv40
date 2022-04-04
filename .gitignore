@@ -1,28 +1,15 @@
 .DS_Store
-node_modules
-/dist
-
-/config/production.json
-/config/development.json
-/config/production.yaml
-/config/development.yaml
-/config/stage.yaml
-
-# local env files
-.env.local
-.env.*.local
-.env
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor directories and files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 .idea
 .vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.github
+.env
+ehthumbs.db
+Thumbs.db
+_config.yml
+node_modules
+yarn.lock
+package-lock.json
