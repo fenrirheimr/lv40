@@ -36,6 +36,25 @@
                 }
             }
         }
+        @media (max-width: 375px) {
+            flex-direction: column;
+            .features-item {
+                @include flex(column, flex-start, flex-start);
+                width: 100%;
+                max-width: 100%;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                .text {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    font-size: 18px;
+                }
+                .number {
+                    font-size: 200px;
+                    right: 0;
+                }
+            }
+        }
         .features-item {
             position: relative;
             width: 33%;

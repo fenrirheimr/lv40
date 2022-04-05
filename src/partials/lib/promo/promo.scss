@@ -1,23 +1,26 @@
 .promo {
     @include flex(column, flex-start, center);
-    background: #11316e url("../img/promo.jpg") top center;
-    min-height: 1440px;
     position: relative;
-    &:after {
-        @include position(absolute, $left: 0, $right: 0, $bottom: 0, $height: 636px);
-        background: linear-gradient(to bottom, rgba(22,64,148,0) 0%, rgba(22,64,148,1) 100%);;
-        display: block;
-        content: ' ';
-        z-index: 0;
-    }
+    min-height: 1440px;
+    background: #11316e url("../img/promo.jpg") top center;
     @media (max-width: 425px) {
+        min-height: 100%;
         background-size: cover;
         background-position-x: 60%;
-        min-height: 100%;
+    }
+    &:after {
+        @include position(absolute, $left: 0, $right: 0, $bottom: 0, $height: 636px);
+        content: " ";
+        display: block;
+        z-index: 0;
+        background: linear-gradient(to bottom, rgba(22, 64, 148, 0) 0%, rgba(22, 64, 148, 1) 100%);
     }
     .container {
         @include flex(column, flex-start, flex-start);
         padding-top: 430px;
+        @media (max-width: 425px) {
+            padding-top: 60px;
+        }
         .title {
             max-width: 510px;
             margin-bottom: 60px;
@@ -30,45 +33,45 @@
         }
         .subtitle {
             @include font-style($font-size: 25px, $font-weight: 500, $color: #ffed00);
+            z-index: 1;
             text-transform: uppercase;
             margin-bottom: 36px;
-            z-index: 1;
         }
         .use {
             @include font-style($font-size: 25px, $font-weight: 500, $color: #fff);
+            z-index: 1;
             text-transform: uppercase;
             margin-bottom: 51px;
-            z-index: 1;
         }
         .icon-wrapper {
             @include flex(row, flex-start, flex-start);
             z-index: 1;
-            > img {
+            @media (max-width: 425px) {
+                .icon {
+                    margin-left: 15px;
+                }
+            }
+            .icon {
                 margin-left: 35px;
                 &:first-child {
                     margin-left: 0;
                 }
-            }
-            @media (max-width: 425px) {
                 > img {
-                    margin-left: 15px;
+                    max-width: 100%;
                 }
             }
         }
         .rating {
             @include flex(row, flex-start, center);
             @include font-style($font-size: 15px, $font-weight: 500, $color: #b0b0af);
-            margin-top: 234px;
             z-index: 1;
-            > img {
-                margin-left: 60px;
-            }
+            margin-top: 234px;
             @media (max-width: 425px) {
                 margin: 50px 0;
             }
-        }
-        @media (max-width: 425px) {
-            padding-top: 60px;
+            > img {
+                margin-left: 60px;
+            }
         }
     }
 }

@@ -38,6 +38,14 @@ body {
         max-width: 360px;
         padding: 0;
     }
+    @media (max-width: 375px) {
+        max-width: 330px;
+        padding: 0;
+    }
+    @media (max-width: 320px) {
+        max-width: 270px;
+        padding: 0;
+    }
 }
 
 .button {
@@ -60,6 +68,13 @@ body {
         background: #db052c;
         &:after {
             background: linear-gradient(to bottom right, #db052c 50%, #fff 52%);
+        }
+    }
+    @media (max-width: 375px) {
+        max-width: 100%;
+        padding: 13px 106px;
+        &:after {
+            display: none;
         }
     }
 }
